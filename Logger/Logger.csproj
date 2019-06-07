@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Splunk.Logging.Common">
+      <HintPath>..\..\splunk-library-dotnetlogging\src\Splunk.Logging.Common\bin\Release\netcoreapp2.2\Splunk.Logging.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
